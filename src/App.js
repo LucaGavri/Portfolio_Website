@@ -33,8 +33,11 @@ class App extends Component {
         //    przesuwanie w gore z btn'a strzałki w gore
         document.querySelector(".scrollUp").addEventListener("click", function (e) {
             (e).preventDefault();
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
+            document.querySelector('.header').scrollIntoView({
+                block: "start",
+                inline: "nearest",
+                behavior: "smooth"
+            });
         });
 
     }

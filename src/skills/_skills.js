@@ -13,10 +13,11 @@ class Skills extends Component {
                         <ul>
                             <li>HTML</li>
                             <li>CSS, SASS</li>
-                            <li>JavaScript, JQuery, AJAX</li>
+                            <li>JavaScript, ES6, JQuery, AJAX</li>
                             <li>React.js</li>
                             <li>Git</li>
                             <li>Gulp, WebPack</li>
+                            <li>Publikacja stron na www</li>
                         </ul>
                     </div>
                 </div>
