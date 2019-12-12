@@ -15,6 +15,7 @@ class Skills extends Component {
                             <li>CSS, SASS</li>
                             <li>JavaScript, ES6, JQuery, AJAX</li>
                             <li>React.js</li>
+                            <li>SCRUM</li>
                             <li>Git</li>
                             <li>Gulp, WebPack</li>
                             <li>Publikacja stron na www</li>
