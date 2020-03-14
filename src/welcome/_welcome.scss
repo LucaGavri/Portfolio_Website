@@ -24,18 +24,20 @@
     border-radius: 6px;
     border: 3px solid #2d2d2d;
     opacity: 1;
-    animation: showButton 7s linear 1;
+    animation: showButton 5s linear 1;
     transition: 1s all;
+
     &:hover{
       background: #2d2d2d;
       color: #fff;
     }
   }
+
   @keyframes showButton {
     0% {
       opacity: 0;
     }
-    80% {
+    70% {
       opacity: 0;
     }
     100% {
@@ -63,7 +65,7 @@
       height: 100%;
       color: #2d2d2d;
       overflow: hidden;
-      animation: typing 6s steps(37) 1;
+      animation: typing 5s steps(37) 1;
       white-space: nowrap;
     }
   }

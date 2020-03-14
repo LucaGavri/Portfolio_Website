@@ -10,27 +10,37 @@ class Nav extends Component {
                     <li>
                         <a href="#" onClick={(event) => {
                             event.preventDefault();
+                            window.scrollTo({
+                            top: 0,
+                            behavior: 'smooth'
+                            }
+                        )
+                        }}>
+                            o mnie
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" onClick={(event) => {
+                            event.preventDefault();
                             document.querySelector('.skills').scrollIntoView({
                                 block: "start",
                                 inline: "nearest",
                                 behavior: "smooth"
                             });
                         }}>
-                            <span>co potrafię</span>
-                            <span>co potrafię</span>
+                            co potrafię
                         </a>
                     </li>
                     <li>
                         <a href="#" onClick={(event) => {
                             event.preventDefault();
-                            document.querySelector('.social').scrollIntoView({
+                            document.querySelector('.portfolio').scrollIntoView({
                                 block: "start",
                                 inline: "nearest",
                                 behavior: "smooth"
                             });
                         }}>
-                            <span>o mnie</span>
-                            <span>o mnie</span>
+                            portfolio
                         </a>
                     </li>
                     <li>
@@ -42,8 +52,7 @@ class Nav extends Component {
                                 behavior: "smooth"
                             });
                         }}>
-                            <span>kontakt</span>
-                            <span>kontakt</span>
+                           kontakt
                         </a>
                     </li>
                 </ul>

@@ -14,6 +14,12 @@ class ContactCopy extends Component {
                     </p>
                     <p>Lokalizacja: Warszawa <i className="fas fa-map-marker-alt"></i></p>
                 </div>
+                <div className="social">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i className="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i className="fab fa-instagram"></i></a>
+                </div>
                 <div className="copyright">
                     <p> <span>&copy;</span> 2019 Łukasz Gawryś, Made by LucaGavri</p>
                 </div>

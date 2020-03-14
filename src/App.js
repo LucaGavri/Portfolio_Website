@@ -5,7 +5,7 @@ import Welcome from "./welcome/_welcome";
 import Header from "./header/_header";
 import Nav from "./navigation/_navigation";
 import Skills from "./skills/_skills";
-import Social from "./social/_social";
+import Portfolio from "./portfolio/_portfolio";
 import ContactCopy from "./contact&copyright/_contact";
 
 
@@ -19,27 +19,6 @@ class App extends Component {
             document.querySelector(".page").style.display = "block";
         });
 
-        //    pokazanie btn'a strzałki w gore
-        window.onscroll = function() {scrollFunction()};
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-                document.querySelector(".scrollUp").style.display = "block";
-            } else {
-                document.querySelector(".scrollUp").style.display = "none";
-            }
-        }
-
-        //    przesuwanie w gore z btn'a strzałki w gore
-        document.querySelector(".scrollUp").addEventListener("click", function (e) {
-            (e).preventDefault();
-            document.querySelector('.header').scrollIntoView({
-                block: "start",
-                inline: "nearest",
-                behavior: "smooth"
-            });
-        });
-
     }
 
     render() {
@@ -49,14 +28,11 @@ class App extends Component {
                     <Welcome/>
                 </div>
                 <div className="page">
-                    <Header/>
                     <Nav/>
+                    <Header/>
                     <Skills/>
-                    <Social/>
+                    <Portfolio/>
                     <ContactCopy/>
-                    <div className="scrollUp">
-                            <i className="fas fa-angle-up"></i>
-                    </div>
                 </div>
             </div>
         )
