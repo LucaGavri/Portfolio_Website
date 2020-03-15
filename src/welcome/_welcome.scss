@@ -4,7 +4,7 @@
     padding: 0;
     width: 100vw;
     height: 100vh;
-    background: #fff;
+    background: #f1f1f1;
     font-family: 'Roboto Mono', monospace;
   }
 
@@ -14,22 +14,24 @@
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
-    padding: 5px;
-    font-size: 20px;
-    letter-spacing: 1px;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
     color: #2d2d2d;
-    font-weight: bold;
-    background: #fff;
     cursor: pointer;
-    border-radius: 6px;
-    border: 3px solid #2d2d2d;
+    border: none;
+    border-radius: 10px;
     opacity: 1;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow:  4px 4px 5px #cccccc,
+    -4px -4px 5px #ffffff;
+    transition: 2s all;
     animation: showButton 5s linear 1;
-    transition: 1s all;
 
     &:hover{
-      background: #2d2d2d;
-      color: #fff;
+      background: #ffffff;
+      box-shadow: inset 4px 4px 5px #cccccc,
+      inset -4px -4px 5px #ffffff;
     }
   }
 

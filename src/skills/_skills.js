@@ -12,13 +12,13 @@ class Skills extends Component {
                         <h3>moje umiejętności</h3>
                         <ul>
                             <li>HTML</li>
-                            <li>CSS, SASS</li>
+                            <li>CSS, Sass</li>
                             <li>JavaScript, ES6, JQuery, AJAX</li>
                             <li>React.js</li>
-                            <li>SCRUM</li>
                             <li>Git</li>
                             <li>Gulp, WebPack</li>
                             <li>Publikacja stron na www</li>
+                            <li>SCRUM</li>
                         </ul>
                     </div>
                 </div>

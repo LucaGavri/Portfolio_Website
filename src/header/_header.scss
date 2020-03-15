@@ -1,7 +1,7 @@
 .header {
   margin: 50px 0 0 0;
   width: 100%;
-  min-height: calc(100vh - 50px);
+  min-height: calc(100vh - 100px);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -16,82 +16,87 @@
     left: -15%;
     width: 130%;
     height: 95%;
-    background: #fff;
+    background: #f1f1f1;
     border-radius: 0 0 50% 50%;
-    box-shadow: 0 0 30px #000;
+  }
+
+  .scroll {
+    content: '';
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 16px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: inset 4px 4px 5px #cccccc,
+    inset -4px -4px 5px #ffffff;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
+      background-color: #0094ff;
+      border-radius: 50%;
+      width: 7px;
+      height: 7px;
+      opacity: 0;
+      animation: scroll 1s infinite;
+    }
+
+    @keyframes scroll {
+      0%{
+        top: 0;
+        opacity: 0;
+      }
+      50%{
+        top: 17px;
+        opacity: 1;
+      }
+      100%{
+        top: 33px;
+        opacity: 0;
+      }
+    }
   }
 
   .header-text {
-    max-width: 80%;
+    height: 70%;
+    width: 70%;
     margin: 0 auto;
     position: relative;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #a4a4a4;
     text-align: center;
 
     .header-title {
-      font-size: 30px;
-      color: #2d2d2d;
-      font-weight: 400;
+      font-size: 20px;
+      font-weight: 200;
     }
 
     .header-about {
-      font-size: 20px;
-      color: #2d2d2d;
+      font-size: 16px;
+      margin: 0;
     }
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 850px) {
   .header {
-    height: 300px;
-  }
-}
+    align-items: flex-start;
 
-@media (max-width: 740px) {
-  .header {
-    height: 350px;
-  }
-}
-
-@media (max-width: 580px) {
-  .header {
-    height: 390px;
-  }
-}
-
-@media (max-width: 510px) {
-  .header {
-    height: 270px;
-    .header-text {
-
-      .header-title {
-        font-size: 20px;
-      }
-
-      .header-about {
-        font-size: 15px;
-      }
+    .header-text{
     }
-  }
-}
-@media (max-width: 440px) {
-  .header {
-    height: 300px;
-  }
-}
-@media (max-width: 385px) {
-  .header {
-    height: 330px;
-  }
-}
-@media (max-width: 350px) {
-  .header {
-    height: 360px;
   }
 }
 @media (max-width: 315px) {
   .header {
-    height: 390px;
     &:before{
       border-radius: 0 0 45% 45%;
     }
