@@ -7,21 +7,20 @@ class Header extends Component {
         return (
             <div className="header">
                 <div className="headerImgAndTxt">
-                    <div className="headerImg">
-
-                    </div>
                     <div className="headerTxt">
                         <h1 className="headerTitle">
-                            <span>Cześć!</span> Nazywam się Łukasz
+                            <span>Hello,</span> I'm Łukasz
                         </h1>
                         <p className="headerAbout">
-                            Swoją pierwszą, stronę www stworzyłem 2 lata temu.
-                            W lipcu 2019 ukończyłem kurs Front-End Dev w Coders Lab.
-                            Aktualnie poszukuję firmy, która pozwoli mi na rozwój w technologiach front-end w
-                            luźnej atmosferze.
-                            Od siebie mogę zaproponować ogromną chęć poszerzania swojej wiedzy, sumienność,
-                            determinację oraz dużo poczucia humoru.
+                            <span>Front-end Dev</span> with love to coding.
+                            <br/>
+                            I am currently <span>looking for</span> individual clients or companies that want to
+                            <span> cooperate</span>.
+
                         </p>
+                    </div>
+                    <div className="headerImg">
+
                     </div>
                 </div>
                 <div className="headerScroll">

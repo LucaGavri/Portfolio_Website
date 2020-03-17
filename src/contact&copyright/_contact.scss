@@ -9,25 +9,25 @@
   align-items: center;
 
   .contact {
-    height: calc((100vh - 100px) - 0.2*(100vh - 100px));
-    width: 80%;
     margin-bottom: 20px;
     color: #a4a4a4;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10px;
+    padding:20px;
     border-radius: 30px;
-    box-shadow: 7px 7px 14px #1a1a1a,
-    -7px -7px 14px #404040,
-    inset 2px 2px 4px #404040,
-    inset -2px -2px 4px #1a1a1a;
+    box-shadow: inset 2px 2px 4px #1a1a1a,
+    inset -2px -2px 4px #404040;
 
     h3 {
       font-size: 20px;
       font-weight: normal;
-      text-transform: uppercase;
+
+      span{
+        color: #0094ff;
+        text-transform: capitalize;
+      }
     }
 
     p {

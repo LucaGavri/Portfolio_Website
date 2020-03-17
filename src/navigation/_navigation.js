@@ -18,7 +18,7 @@ class Nav extends Component {
                                     }
                                 )
                             }}>
-                                o mnie
+                                about me
                             </a>
                         </li>
                         <li>
@@ -30,7 +30,7 @@ class Nav extends Component {
                                     behavior: "smooth"
                                 });
                             }}>
-                                co potrafię
+                                skills
                             </a>
                         </li>
                         <li>
@@ -54,7 +54,7 @@ class Nav extends Component {
                                     behavior: "smooth"
                                 });
                             }}>
-                                kontakt
+                                contact
                             </a>
                         </li>
                     </ul>
