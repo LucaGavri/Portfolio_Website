@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1058f8e1-8c21-4d1a-8132-3bc66f276f45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/autodetail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/clickerGame.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/codeFx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/flowerShop.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contact&amp;copyright/_contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact&amp;copyright/_contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contact&amp;copyright/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact&amp;copyright/_contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/_header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/_header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/navigation/_navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/navigation/_navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/portfolio/_portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/_portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/portfolio/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/_portfolio.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,22 +23,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/header/_header.scss">
+        <entry file="file://$PROJECT_DIR$/src/portfolio/_portfolio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+            <state relative-caret-position="69">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/navigation/_navigation.js">
+        <entry file="file://$PROJECT_DIR$/src/portfolio/_portfolio.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="73">
+              <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/navigation/_navigation.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="64" column="30" lean-forward="true" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -77,8 +86,6 @@
         <option value="$PROJECT_DIR$/src/social/_social.scss" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/portfolio/_portfolio.js" />
-        <option value="$PROJECT_DIR$/src/portfolio/_portfolio.scss" />
         <option value="$PROJECT_DIR$/src/welcome/_welcome.scss" />
         <option value="$PROJECT_DIR$/src/skills/_skills.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
@@ -88,9 +95,11 @@
         <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/src/contact&amp;copyright/_contact.scss" />
         <option value="$PROJECT_DIR$/src/header/_header.js" />
-        <option value="$PROJECT_DIR$/src/header/_header.scss" />
         <option value="$PROJECT_DIR$/src/contact&amp;copyright/_contact.js" />
         <option value="$PROJECT_DIR$/src/navigation/_navigation.js" />
+        <option value="$PROJECT_DIR$/src/header/_header.scss" />
+        <option value="$PROJECT_DIR$/src/portfolio/_portfolio.js" />
+        <option value="$PROJECT_DIR$/src/portfolio/_portfolio.scss" />
       </list>
     </option>
   </component>
@@ -129,6 +138,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="navigation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Portfolio_Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio_Website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -139,7 +154,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -148,12 +163,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/8bitfont" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -215,12 +230,12 @@
       <workItem from="1584222267891" duration="6547000" />
       <workItem from="1584297461950" duration="12094000" />
       <workItem from="1584391656673" duration="14369000" />
-      <workItem from="1584463059958" duration="3726000" />
+      <workItem from="1584463059958" duration="7843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209796000" />
+    <option name="totallyTimeSpent" value="213913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="25" width="1311" height="743" extended-state="6" />
@@ -239,7 +254,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21824104" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.37296417" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -335,16 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/portfolio/_portfolio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/welcome/_welcome.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -366,20 +371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/portfolio/_portfolio.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/navigation/_navigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -448,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/header/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/navigation/_navigation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
@@ -462,6 +446,37 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/header/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/portfolio/_portfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/navigation/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="64" column="30" lean-forward="true" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/portfolio/_portfolio.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
         </state>
       </provider>
     </entry>
