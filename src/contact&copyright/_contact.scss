@@ -1,101 +1,68 @@
-.contact-copyright {
+.contactAndCopyright {
   margin: 0 auto;
   min-height: calc(100vh - 50px);
-  width: 90%;
-  font-family: 'Roboto Mono', monospace;
+  width: 100%;
+  font-family: 'Baloo Chettan 2', cursive;
   position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 
-
-  .social {
-    padding-top: 50px;
-    width: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    a {
-      font-weight: 400;
-      text-decoration: none;
-      font-size: 30px;
-      color: #717171;
-      transition: 0.5s all;
-
-      &:hover {
-        color: #fff;
-      }
-    }
-  }
-
   .contact {
-    color: #fff;
+    height: calc((100vh - 100px) - 0.2*(100vh - 100px));
+    width: 80%;
+    margin-bottom: 20px;
+    color: #a4a4a4;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 7px 7px 14px #1a1a1a,
+    -7px -7px 14px #404040,
+    inset 2px 2px 4px #404040,
+    inset -2px -2px 4px #1a1a1a;
 
     h3 {
-      font-size: 22px;
+      font-size: 20px;
       font-weight: normal;
       text-transform: uppercase;
     }
 
     p {
-      font-size: 20px;
+      font-size: 16px;
 
       a {
         text-decoration: none;
-        color: #717171;
+        color: #a4a4a4;
         transition: .5s all;
 
         &:hover {
-          color: #fff;
+          color: #0094ff;
         }
+      }
+
+      i {
+        color: #0094ff;
       }
     }
   }
 
   .copyright {
     position: absolute;
+    width: 100%;
     bottom: 0;
+    box-shadow: 0 -2px 10px #404040,
+    inset 0 2px 4px #404040;
 
     p {
       font-size: 10px;
-      padding-top: 100px;
       text-align: center;
       color: #0094ff;
-      margin-bottom: 0;
 
       span {
-        font-size: 20px;
-      }
-    }
-  }
-}
-
-@media (max-width: 440px) {
-  .contact-copyright {
-
-    .contact {
-      h3 {
-        font-size: 20px;
-      }
-
-      p {
-        font-size: 15px;
-      }
-    }
-
-    .copyright {
-      p {
-        font-size: 12px;
-
-        span {
-          font-size: 18px;
-        }
+        font-size: 14px;
       }
     }
   }
