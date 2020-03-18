@@ -23,6 +23,15 @@
       -2px -2px 7px #404040,
       inset 2px 2px 4px #404040,
       inset -2px -2px 4px #101010;
+      transition: 2s all;
+
+      &:hover{
+        .portfolioDetailingImg{
+          &:after{
+            opacity: 0;
+          }
+        }
+      }
 
       .portfolioDetailingImg{
         width: 100%;
@@ -30,7 +39,8 @@
         background-image: url("./../images/autodetail.jpg");
         background-size: cover;
         border-radius: 30px 30px 0 0;
-        box-shadow: inset 2px 2px 4px #404040;
+        box-shadow: inset 2px 2px 4px #404040,
+        inset -2px 0 4px #101010;
         position: relative;
 
         &:after{
@@ -39,13 +49,15 @@
           height: 100%;
           background: rgba(16, 16, 16, 0.7);
           border-radius: 30px 30px 0 0;
-          box-shadow: inset 2px 2px 4px #404040;
+          box-shadow: inset 2px 2px 4px #404040,
+          inset -2px 0 4px #101010;
           position: absolute;
           color: #a4a4a4;
           font-size: 20px;
           display: flex;
           justify-content: center;
           align-items: center;
+          transition: 0.5s all;
         }
       }
 
@@ -98,13 +110,22 @@
       inset 2px 2px 4px #404040,
       inset -2px -2px 4px #101010;
 
+      &:hover{
+        .portfolioFlowerImg{
+          &:after{
+            opacity: 0;
+          }
+        }
+      }
+
       .portfolioFlowerImg{
         width: 100%;
         height: 75%;
         background-image: url("./../images/flowerShop.jpg");
         background-size: cover;
         border-radius: 30px 30px 0 0;
-        box-shadow: inset 2px 2px 4px #404040;
+        box-shadow: inset 2px 2px 4px #404040,
+        inset -2px 0 4px #101010;
         position: relative;
 
         &:after{
@@ -113,13 +134,15 @@
           height: 100%;
           background: rgba(16, 16, 16, 0.7);
           border-radius: 30px 30px 0 0;
-          box-shadow: inset 2px 2px 4px #404040;
+          box-shadow: inset 2px 2px 4px #404040,
+          inset -2px 0 4px #101010;
           position: absolute;
           color: #a4a4a4;
           font-size: 20px;
           display: flex;
           justify-content: center;
           align-items: center;
+          transition: 0.5s all;
         }
       }
 
@@ -172,13 +195,22 @@
       inset 2px 2px 4px #404040,
       inset -2px -2px 4px #101010;
 
+      &:hover{
+        .portfolioGameImg{
+          &:after{
+            opacity: 0;
+          }
+        }
+      }
+
       .portfolioGameImg{
         width: 100%;
         height: 75%;
         background-image: url("./../images/clickerGame.jpg");
         background-size: cover;
         border-radius: 30px 30px 0 0;
-        box-shadow: inset 2px 2px 4px #404040;
+        box-shadow: inset 2px 2px 4px #404040,
+        inset -2px 0 4px #101010;
         position: relative;
 
         &:after{
@@ -187,13 +219,15 @@
           height: 100%;
           background: rgba(16, 16, 16, 0.7);
           border-radius: 30px 30px 0 0;
-          box-shadow: inset 2px 2px 4px #404040;
+          box-shadow: inset 2px 2px 4px #404040,
+          inset -2px 0 4px #101010;
           position: absolute;
           color: #a4a4a4;
           font-size: 20px;
           display: flex;
           justify-content: center;
           align-items: center;
+          transition: 0.5s all;
         }
       }
 
@@ -246,13 +280,22 @@
       inset 2px 2px 4px #404040,
       inset -2px -2px 4px #101010;
 
+      &:hover{
+        .portfolioFxImg{
+          &:after{
+            opacity: 0;
+          }
+        }
+      }
+
       .portfolioFxImg{
         width: 100%;
         height: 75%;
         background-image: url("./../images/codeFx.jpg");
         background-size: cover;
         border-radius: 30px 30px 0 0;
-        box-shadow: inset 2px 2px 4px #404040;
+        box-shadow: inset 2px 2px 4px #404040,
+        inset -2px 0 4px #101010;
         position: relative;
 
         &:after{
@@ -261,13 +304,15 @@
           height: 100%;
           background: rgba(16, 16, 16, 0.7);
           border-radius: 30px 30px 0 0;
-          box-shadow: inset 2px 2px 4px #404040;
+          box-shadow: inset 2px 2px 4px #404040,
+          inset -2px 0 4px #101010;
           position: absolute;
           color: #a4a4a4;
           font-size: 20px;
           display: flex;
           justify-content: center;
           align-items: center;
+          transition: 0.5s all;
         }
       }
 
