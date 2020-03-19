@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1058f8e1-8c21-4d1a-8132-3bc66f276f45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/winetenobg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contact&amp;copyright/_contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact&amp;copyright/_contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contact&amp;copyright/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/contact&amp;copyright/_contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/_header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/_header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/_portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/_portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio/_portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/_skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/_skills.js" afterDir="false" />
-    </list>
+    <list default="true" id="1058f8e1-8c21-4d1a-8132-3bc66f276f45" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/header/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="165" column="30" lean-forward="true" selection-start-line="165" selection-start-column="30" selection-end-line="165" selection-end-column="30" />
+            <state relative-caret-position="133">
+              <caret line="160" column="1" lean-forward="true" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -137,24 +127,6 @@
               <item name="Portfolio_Website" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Portfolio_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contact&amp;copyright" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Portfolio_Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Portfolio_Website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -243,18 +215,17 @@
       <workItem from="1584391656673" duration="14369000" />
       <workItem from="1584463059958" duration="16712000" />
       <workItem from="1584568636782" duration="9440000" />
-      <workItem from="1584647492634" duration="5671000" />
+      <workItem from="1584647492634" duration="5741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237893000" />
+    <option name="totallyTimeSpent" value="237963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="25" width="1311" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17624223" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17624223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -267,7 +238,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.09934854" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3306189" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -488,8 +459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/header/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="165" column="30" lean-forward="true" selection-start-line="165" selection-start-column="30" selection-end-line="165" selection-end-column="30" />
+        <state relative-caret-position="133">
+          <caret line="160" column="1" lean-forward="true" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="1" />
         </state>
       </provider>
     </entry>
