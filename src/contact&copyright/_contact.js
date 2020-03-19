@@ -15,7 +15,7 @@ class ContactCopy extends Component {
                     <p>Location: Warsaw <i className="fas fa-map-marker-alt"></i></p>
                 </div>
                 <div className="copyright">
-                    <p> <span>&copy;</span> 2019 Łukasz Gawryś, Made by LucaGavri</p>
+                    <p> <span>&copy;</span> 2020 Łukasz Gawryś, Made by LucaGavri</p>
                 </div>
             </div>
 

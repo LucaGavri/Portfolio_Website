@@ -6,6 +6,7 @@ class Portfolio extends Component {
     render() {
         return (
             <div className="portfolio">
+                <h3><span>por</span>tfolio</h3>
                 <div className="portfolioMain">
                     <div className="portfolioDetailing">
                         <div className="portfolioDetailingImg">

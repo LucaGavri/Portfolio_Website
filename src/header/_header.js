@@ -12,7 +12,7 @@ class Header extends Component {
                             <span>Hello,</span> I'm Łukasz
                         </h1>
                         <p className="headerAbout">
-                            <span>Front-end Dev</span> with love to coding.
+                            <span>Front-end Dev</span> with passion for coding.
                             <br/>
                             I am currently <span>looking for</span> individual clients or companies that want to
                             <span> cooperate</span>.

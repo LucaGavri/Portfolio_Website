@@ -68,3 +68,25 @@
     }
   }
 }
+
+@media (max-height: 400px){
+  .contactAndCopyright {
+    .contact {
+
+      h3 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+    }
+
+    .copyright {
+
+      p {
+        margin: 5px 0;
+      }
+    }
+  }
+}

@@ -17,9 +17,9 @@ class Skills extends Component {
                             <li><span>jQuery</span></li>
                             <li><span>AJAX</span></li>
                             <li><i className="fab fa-react"></i></li>
+                            <li><i className="fab fa-node"></i></li>
                             <li><i className="fab fa-git-alt"></i></li>
                             <li><i className="fab fa-gulp"></i></li>
-                            <li><i className="fab fa-node"></i></li>
                             <li><i className="fab fa-npm"></i></li>
                             <li><i className="fab fa-github"></i></li>
                             <li><i className="fas fa-server"></i></li>
