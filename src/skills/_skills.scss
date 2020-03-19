@@ -1,35 +1,87 @@
 .skills {
   margin: 0;
+  padding-top: 60px;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 
-
-  .skills-elems {
+  .skillsElems {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 
-    .skills-text {
+    .skillsText {
+      width: 100%;
       color: #a4a4a4;
-      font-size: 16px;
-      padding-left: 30px;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
 
       h3 {
-        text-transform: uppercase;
         font-weight: 400;
+
+        span {
+          color: #0094ff;
+          text-transform: capitalize;
+        }
       }
 
       ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 50px;
         margin: 0;
-        padding-left: 20px;
+        padding: 0;
 
         li {
-          list-style-type: circle;
+          list-style-type: none;
+          width: 100px;
+          height: 100px;
+          margin: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50px;
+          box-shadow: 2px 2px 4px #1a1a1a,
+          -2px -2px 4px #404040,
+          inset 2px 2px 4px #404040,
+          inset -2px -2px 4px #1a1a1a;
+          animation: rot 4s infinite ease-in-out;
+
+          span {
+            font-size: 20px;
+          }
+        }
+
+        @keyframes rot {
+          0% {
+            border-radius: 50px;
+          }
+          35% {
+            border-radius: 50px;
+          }
+          40% {
+            border-radius: 30px;
+          }
+          45% {
+            border-radius: 50px;
+          }
+          50% {
+            border-radius: 30px;
+          }
+          55% {
+            border-radius: 50px;
+          }
+          100% {
+            border-radius: 50px;
+          }
         }
       }
     }

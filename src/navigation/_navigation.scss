@@ -10,7 +10,7 @@
   top: 0;
   z-index: 10;
   box-shadow: 0 2px 10px #1a1a1a,
-              inset 0 -2px 4px #1a1a1a;
+  inset 0 -2px 4px #1a1a1a;
 
   .navMain {
     width: 90%;
@@ -19,8 +19,8 @@
     justify-content: space-between;
     align-items: center;
 
-    .navBurger{
-      display: flex;
+    .navBurger {
+      display: none;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -41,7 +41,7 @@
         border-radius: 3px;
         height: 3px;
         background-color: #a4a4a4;
-        transition: 0.4s all;
+        transition: 1s all;
       }
 
       .burger2 {
@@ -50,7 +50,6 @@
         border-radius: 3px;
         height: 3px;
         background-color: #a4a4a4;
-        transition: 0.4s all;
       }
 
       .burger3 {
@@ -59,12 +58,12 @@
         border-radius: 3px;
         height: 3px;
         background-color: #a4a4a4;
-        transition: 0.4s all;
+        transition: 1s all;
       }
     }
 
     .activeNavBurger {
-      display: flex;
+      display: none;
       justify-content: center;
       align-items: center;
 
@@ -73,7 +72,7 @@
         width: 60%;
         background-color: #0094ff;
         position: absolute;
-        transform: rotate(45deg);
+        transform: rotate(225deg);
       }
 
       .burger2 {
@@ -85,7 +84,7 @@
         width: 60%;
         background-color: #0094ff;
         position: absolute;
-        transform: rotate(-45deg);
+        transform: rotate(-225deg);
       }
     }
 
@@ -95,7 +94,7 @@
       width: 40%;
       font-size: 14px;
       font-weight: 500;
-      display: none;
+      display: flex;
       justify-content: space-around;
 
       li {
@@ -135,9 +134,9 @@
         text-decoration: none;
         border-radius: 50%;
         box-shadow: 2px 2px 7px #1a1a1a,
-                    -2px -2px 7px #404040,
-                    inset 2px 2px 4px #404040,
-                    inset -2px -2px 4px #101010;
+        -2px -2px 7px #404040,
+        inset 2px 2px 4px #404040,
+        inset -2px -2px 4px #101010;
         color: #a4a4a4;
         transition: 0.5s all;
 
@@ -149,4 +148,37 @@
   }
 }
 
+@media (max-width: 850px) {
+  .navigation {
 
+    .navMain {
+
+      .navBurger{
+        display: flex;
+      }
+
+      .activeNavBurger{
+        display: flex;
+      }
+
+      .nav {
+        padding: 0;
+        margin: 0;
+        background: #2d2d2d;
+        height: calc(100vh - 60px);
+        width: 50vw;
+        position: fixed;
+        font-size: 14px;
+        font-weight: 500;
+        left: -50vw;
+        top: 60px;
+        display: flex;
+        box-shadow: inset -2px 0 4px #101010;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        transition: 0.7s all ;
+      }
+    }
+  }
+}

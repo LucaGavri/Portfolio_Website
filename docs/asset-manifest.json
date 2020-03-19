@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.68bd0159.chunk.css",
-    "main.js": "./static/js/main.6dda4679.chunk.js",
-    "main.js.map": "./static/js/main.6dda4679.chunk.js.map",
+    "main.css": "./static/css/main.7e8882a5.chunk.css",
+    "main.js": "./static/js/main.a983ec69.chunk.js",
+    "main.js.map": "./static/js/main.a983ec69.chunk.js.map",
     "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
     "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
     "static/js/2.d6a534e5.chunk.js": "./static/js/2.d6a534e5.chunk.js",
     "static/js/2.d6a534e5.chunk.js.map": "./static/js/2.d6a534e5.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.7a68044c447b2579ebd1d306bc84056f.js": "./precache-manifest.7a68044c447b2579ebd1d306bc84056f.js",
+    "precache-manifest.889156484100c01b83c52e285ee9eff1.js": "./precache-manifest.889156484100c01b83c52e285ee9eff1.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.68bd0159.chunk.css.map": "./static/css/main.68bd0159.chunk.css.map",
+    "static/css/main.7e8882a5.chunk.css.map": "./static/css/main.7e8882a5.chunk.css.map",
     "static/media/_portfolio.scss": "./static/media/flowerShop.78f33b21.jpg",
     "static/media/_header.scss": "./static/media/photocv-nobg.00aaae73.png"
   }

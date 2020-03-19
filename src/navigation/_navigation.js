@@ -6,16 +6,48 @@ class Nav extends Component {
     componentDidMount() {
         //animacja i rozwijanie menu burgera
         const navBurger = document.querySelector('.navBurger');
+        const navMobile = document.querySelector('.nav');
+        const headerToCloseNav = document.querySelector('.header');
+        const skillsToCloseNav = document.querySelector('.skills');
+        const portfolioToCloseNav = document.querySelector('.portfolio');
+        const contactToCloseNav = document.querySelector('.contactAndCopyright');
+
+
 
         navBurger.addEventListener('click', function (e) {
             e.preventDefault();
             navBurger.classList.toggle('activeNavBurger');
 
-            // if (burger.classList.contains('activeBurger')) {
-            //     navMobile.style.top = "50px";
-            // } else {
-            //     navMobile.style.top = "100vh";
-            // }
+            if (navBurger.classList.contains('activeNavBurger')) {
+                navMobile.style.left = "0";
+            } else {
+                navMobile.style.left = "-50vw";
+            }
+        });
+
+        function closeNav(){
+            navBurger.classList.remove('activeNavBurger');
+            navMobile.style.left = "-50vw";
+        }
+
+        headerToCloseNav.addEventListener('click', function (e) {
+            e.preventDefault();
+            closeNav()
+        });
+
+        skillsToCloseNav.addEventListener('click', function (e) {
+            e.preventDefault();
+            closeNav()
+        });
+
+        portfolioToCloseNav.addEventListener('click', function (e) {
+            e.preventDefault();
+            closeNav()
+        });
+
+        contactToCloseNav.addEventListener('click', function (e) {
+            e.preventDefault();
+            closeNav()
         });
     }
 
