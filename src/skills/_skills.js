@@ -22,6 +22,7 @@ class Skills extends Component {
                             <li><i className="fab fa-gulp"></i></li>
                             <li><i className="fab fa-npm"></i></li>
                             <li><i className="fab fa-github"></i></li>
+                            <li><span>SCRUM</span></li>
                             <li><i className="fas fa-server"></i></li>
                         </ul>
                     </div>

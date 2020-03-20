@@ -13,10 +13,10 @@ class Portfolio extends Component {
                         </div>
                         <div className="portfolioDetailingClicker">
                             <div className="portfolioDetailingClickerBtns">
-                                <a href="https://lucagavri.github.io/WytworniaBlasku_Project/" className="detailingDemo" target="_blank">
+                                <a href="https://lucagavri.github.io/WytworniaBlasku_Project/" className="detailingDemo" rel="noopener noreferrer" target="_blank">
                                     <i className="fas fa-play"></i>
                                 </a>
-                                <a href="https://github.com/LucaGavri/WytworniaBlasku_Project" className="detailingGitHub" target="_blank">
+                                <a href="https://github.com/LucaGavri/WytworniaBlasku_Project" className="detailingGitHub" rel="noopener noreferrer" target="_blank">
                                     <i className="fab fa-github"></i>
                                 </a>
                             </div>
@@ -27,10 +27,10 @@ class Portfolio extends Component {
                         </div>
                         <div className="portfolioFlowerClicker">
                             <div className="portfolioFlowerClickerBtns">
-                                <a href="https://lucagavri.github.io/Flower_Shop_Project/" className="flowerDemo" target="_blank">
+                                <a href="https://lucagavri.github.io/Flower_Shop_Project/" className="flowerDemo" rel="noopener noreferrer" target="_blank">
                                     <i className="fas fa-play"></i>
                                 </a>
-                                <a href="https://github.com/LucaGavri/Flower_Shop_Project" className="flowerGitHub" target="_blank">
+                                <a href="https://github.com/LucaGavri/Flower_Shop_Project" className="flowerGitHub" rel="noopener noreferrer" target="_blank">
                                     <i className="fab fa-github"></i>
                                 </a>
                             </div>
@@ -41,10 +41,10 @@ class Portfolio extends Component {
                         </div>
                         <div className="portfolioGameClicker">
                             <div className="portfolioGameClickerBtns">
-                                <a href="https://lucagavri.github.io/Clicker_Evolution_Game/" className="gameDemo" target="_blank">
+                                <a href="https://lucagavri.github.io/Clicker_Evolution_Game/" className="gameDemo" rel="noopener noreferrer" target="_blank">
                                     <i className="fas fa-play"></i>
                                 </a>
-                                <a href="https://github.com/LucaGavri/Clicker_Evolution_Game" className="gameGitHub" target="_blank">
+                                <a href="https://github.com/LucaGavri/Clicker_Evolution_Game" className="gameGitHub" rel="noopener noreferrer" target="_blank">
                                     <i className="fab fa-github"></i>
                                 </a>
                             </div>
@@ -55,10 +55,21 @@ class Portfolio extends Component {
                         </div>
                         <div className="portfolioFxClicker">
                             <div className="portfolioFxClickerBtns">
-                                <a href="https://lucagavri.github.io/FX_Site_Project/" className="fxDemo" target="_blank">
+                                <a href="https://lucagavri.github.io/FX_Site_Project/" className="fxDemo" rel="noopener noreferrer" target="_blank">
                                     <i className="fas fa-play"></i>
                                 </a>
-                                <a href="https://github.com/LucaGavri/FX_Site_Project" className="fxGitHub" target="_blank">
+                                <a href="https://github.com/LucaGavri/FX_Site_Project" className="fxGitHub" rel="noopener noreferrer" target="_blank">
+                                    <i className="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="portfolioPortf">
+                        <div className="portfolioPortfImg">
+                        </div>
+                        <div className="portfolioPortfClicker">
+                            <div className="portfolioPortfClickerBtns">
+                                <a href="https://github.com/LucaGavri/Portfolio_Website" className="portfGitHub" rel="noopener noreferrer" target="_blank">
                                     <i className="fab fa-github"></i>
                                 </a>
                             </div>
@@ -72,4 +83,3 @@ class Portfolio extends Component {
 }
 
 export default Portfolio;
-

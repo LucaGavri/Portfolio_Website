@@ -9,8 +9,8 @@ class Nav extends Component {
         const navMobile = document.querySelector('.nav');
         const headerToCloseNav = document.querySelector('.header');
         const skillsToCloseNav = document.querySelector('.skills');
-        const portfolioToCloseNav = document.querySelector('.portfolio');
-        const contactToCloseNav = document.querySelector('.contactAndCopyright');
+        // const portfolioToCloseNav = document.querySelector('.portfolio');
+        // const contactToCloseNav = document.querySelector('.contactAndCopyright');
 
 
 
@@ -40,15 +40,15 @@ class Nav extends Component {
             closeNav()
         });
 
-        portfolioToCloseNav.addEventListener('click', function (e) {
-            e.preventDefault();
-            closeNav()
-        });
+        // portfolioToCloseNav.addEventListener('click', function (e) {
+        //     e.preventDefault();
+        //     closeNav()
+        // });
 
-        contactToCloseNav.addEventListener('click', function (e) {
-            e.preventDefault();
-            closeNav()
-        });
+        // contactToCloseNav.addEventListener('click', function (e) {
+        //     e.preventDefault();
+        //     closeNav()
+        // });
     }
 
     render() {
@@ -111,9 +111,9 @@ class Nav extends Component {
                         </li>
                     </ul>
                     <div className="navSocial">
-                        <a href="https://www.facebook.com/LucaGavri13" target="_blank">
+                        <a href="https://www.facebook.com/LucaGavri13" rel="noopener noreferrer" target="_blank">
                             <i className="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/lucagavri/" target="_blank">
+                        <a href="https://www.instagram.com/lucagavri/" rel="noopener noreferrer" target="_blank">
                             <i className="fab fa-instagram"></i></a>
                     </div>
                 </div>

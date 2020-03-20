@@ -4,23 +4,7 @@
   font-family: 'Baloo Chettan 2', cursive;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 
-  .welcome-app{
-    display: none;
-  }
-
-  .page {
-    display: block;
-  }
-}
-
-@media (max-width: 1040px) {
-  .app {
-    .welcome-app {
-      display: none;
-    }
-
-    .page {
-      display: block;
-    }
+  .page{
+    margin: 0;
   }
 }
