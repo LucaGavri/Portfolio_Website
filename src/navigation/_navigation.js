@@ -9,8 +9,8 @@ class Nav extends Component {
         const navMobile = document.querySelector('.nav');
         const headerToCloseNav = document.querySelector('.header');
         const skillsToCloseNav = document.querySelector('.skills');
-        // const portfolioToCloseNav = document.querySelector('.portfolio');
-        // const contactToCloseNav = document.querySelector('.contactAndCopyright');
+        const portfolioToCloseNav = document.querySelector('.portfolio');
+        const contactToCloseNav = document.querySelector('.contactAndCopyright');
 
 
 
@@ -31,24 +31,20 @@ class Nav extends Component {
         }
 
         headerToCloseNav.addEventListener('click', function (e) {
-            e.preventDefault();
-            closeNav()
+            closeNav(e)
         });
 
         skillsToCloseNav.addEventListener('click', function (e) {
-            e.preventDefault();
-            closeNav()
+            closeNav(e)
         });
 
-        // portfolioToCloseNav.addEventListener('click', function (e) {
-        //     e.preventDefault();
-        //     closeNav()
-        // });
+        portfolioToCloseNav.addEventListener('click', function (e) {
+            closeNav(e)
+        });
 
-        // contactToCloseNav.addEventListener('click', function (e) {
-        //     e.preventDefault();
-        //     closeNav()
-        // });
+        contactToCloseNav.addEventListener('click', function (e) {
+            closeNav(e)
+        });
     }
 
     render() {
@@ -113,8 +109,8 @@ class Nav extends Component {
                     <div className="navSocial">
                         <a href="https://www.facebook.com/LucaGavri13" rel="noopener noreferrer" target="_blank">
                             <i className="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/lucagavri/" rel="noopener noreferrer" target="_blank">
-                            <i className="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/lukasz-gawrys" rel="noopener noreferrer" target="_blank">
+                            <i className="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>

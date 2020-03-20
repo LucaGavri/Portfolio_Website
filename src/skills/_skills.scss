@@ -60,6 +60,34 @@
           }
         }
 
+        .es6{
+          background-image: url("./../images/es6.png");
+          background-size: 45px 45px;
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+        }
+
+        .jQuery{
+          background-image: url("./../images/jquery.png");
+          background-size: 60px 60px;
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+        }
+
+        .ajax{
+          background-image: url("./../images/ajax.png");
+          background-size: 60px 60px;
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+        }
+
+        .webPack{
+          background-image: url("./../images/webpack.png");
+          background-size: 80px 80px;
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+        }
+
         @keyframes rot {
           0% {
             border-radius: 50px;
