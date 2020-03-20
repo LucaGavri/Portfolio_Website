@@ -1,3 +1,25 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #666;
+  -webkit-box-shadow: 2px 2px 7px #404040,
+  -2px -2px 7px #101010,
+  inset 2px 2px 4px #101010,
+  inset -2px -2px 4px #404040;;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2d2d2d;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 7px #1a1a1a,
+  -2px -2px 7px #404040,
+  inset 2px 2px 4px #404040,
+  inset -2px -2px 4px #101010;
+}
+
 .app {
   margin: 0 auto;
   background: #2d2d2d;
