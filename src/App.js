@@ -6,6 +6,7 @@ import Nav from "./navigation/_navigation";
 import Skills from "./skills/_skills";
 import Portfolio from "./portfolio/_portfolio";
 import ContactCopy from "./contact&copyright/_contact";
+import Welcome from "./welcome/_welcome";
 
 
 class App extends Component {
@@ -15,6 +16,9 @@ class App extends Component {
     render() {
         return (
             <div className="app">
+                <div className="welcome">
+                    <Welcome/>
+                </div>
                 <div className="page">
                     <Nav/>
                     <Header/>

@@ -12,7 +12,7 @@ class Header extends Component {
                             <span>Hello,</span> I'm Łukasz
                         </h1>
                         <p className="headerAbout">
-                            <span>Front-end Dev</span> with passion for coding.
+                            <span>Jr Front-end Dev</span> with passion for coding.
                             <br/>
                             I am currently <span>looking for</span> individual clients or companies that want to
                             <span> cooperate</span>.
@@ -20,7 +20,6 @@ class Header extends Component {
                         </p>
                     </div>
                     <div className="headerImg">
-
                     </div>
                 </div>
                 <div className="headerScroll">
