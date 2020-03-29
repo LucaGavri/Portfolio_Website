@@ -14,7 +14,7 @@ class Welcome extends Component {
         setTimeout(function(){
             welcomeTxt.style.display = 'none';
             welcomeGetIn.style.display = 'flex';
-        },4000);
+        },3000);
 
         //klick do startu strony
         welcomeGetIn.addEventListener('click', function (e) {

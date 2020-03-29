@@ -111,6 +111,9 @@ class Nav extends Component {
                             <i className="fab fa-facebook-f"></i></a>
                         <a href="https://www.linkedin.com/in/lukasz-gawrys" rel="noopener noreferrer" target="_blank">
                             <i className="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/LucaGavri" rel="noopener noreferrer" target="_blank">
+                            <i className="fab fa-github"></i>
+                        </a>
                     </div>
                 </div>
             </div>
