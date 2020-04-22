@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e38ea00bd88629292aab04e2b186ef1a",
+    "revision": "50be4c6ccee9eed1019835769392deb2",
     "url": "./index.html"
   },
   {
-    "revision": "ed76132c8e2d5442d3c8",
-    "url": "./static/css/main.e8b73764.chunk.css"
+    "revision": "927f3bf9564cabf6c847",
+    "url": "./static/css/main.0ce30eeb.chunk.css"
   },
   {
     "revision": "9eee67cf782a38d35aeb",
     "url": "./static/js/2.d6a534e5.chunk.js"
   },
   {
-    "revision": "ed76132c8e2d5442d3c8",
-    "url": "./static/js/main.40717242.chunk.js"
+    "revision": "927f3bf9564cabf6c847",
+    "url": "./static/js/main.d6f18be9.chunk.js"
   },
   {
     "revision": "8c97409f0ee389fe75da",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "78f33b21e79f9079e60e5f5b8b4702a0",
     "url": "./static/media/flowerShop.78f33b21.jpg"
+  },
+  {
+    "revision": "ca88149c464de53b6e733bb5d955d224",
+    "url": "./static/media/hotelBreakfast.ca88149c.jpg"
   },
   {
     "revision": "d23c0be23f70873aefae75ff05443711",

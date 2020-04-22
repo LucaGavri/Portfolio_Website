@@ -50,6 +50,20 @@ class Portfolio extends Component {
                             </div>
                         </div>
                     </div>
+                    <div className="portfolioBreakfast">
+                        <div className="portfolioBreakfastImg">
+                        </div>
+                        <div className="portfolioBreakfastClicker">
+                            <div className="portfolioBreakfastClickerBtns">
+                                <a href="https://lucagavri.github.io/HotelBreakfast_Project/index.html" className="breakfastDemo" rel="noopener noreferrer" target="_blank">
+                                    <i className="fas fa-play"></i>
+                                </a>
+                                <a href="https://github.com/LucaGavri/HotelBreakfast_Project" className="breakfastGitHub" rel="noopener noreferrer" target="_blank">
+                                    <i className="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div className="portfolioFx">
                         <div className="portfolioFxImg">
                         </div>
