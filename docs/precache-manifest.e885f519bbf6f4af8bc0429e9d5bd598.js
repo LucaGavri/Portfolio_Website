@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "50be4c6ccee9eed1019835769392deb2",
+    "revision": "81a928c46b6f5ee65be888ba65870d5d",
     "url": "./index.html"
   },
   {
-    "revision": "927f3bf9564cabf6c847",
-    "url": "./static/css/main.0ce30eeb.chunk.css"
+    "revision": "aa922beaa677176edd6a",
+    "url": "./static/css/main.dc0b9f22.chunk.css"
   },
   {
-    "revision": "9eee67cf782a38d35aeb",
-    "url": "./static/js/2.d6a534e5.chunk.js"
+    "revision": "cbcedbb687b38e60690c",
+    "url": "./static/js/2.1aae996a.chunk.js"
   },
   {
-    "revision": "927f3bf9564cabf6c847",
-    "url": "./static/js/main.d6f18be9.chunk.js"
+    "revision": "aa922beaa677176edd6a",
+    "url": "./static/js/main.376d7360.chunk.js"
   },
   {
     "revision": "8c97409f0ee389fe75da",
     "url": "./static/js/runtime~main.d653cc00.js"
+  },
+  {
+    "revision": "860ff6e1028a7fc673719ddc89ef5a6d",
+    "url": "./static/media/Fakestagram.860ff6e1.jpg"
   },
   {
     "revision": "058997a1f2e3fe34d498d5b43ceeeebf",
