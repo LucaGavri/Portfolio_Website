@@ -107,8 +107,6 @@ class Nav extends Component {
                         </li>
                     </ul>
                     <div className="navSocial">
-                        <a href="https://www.facebook.com/LucaGavri13" rel="noopener noreferrer" target="_blank">
-                            <i className="fab fa-facebook-f"></i></a>
                         <a href="https://www.linkedin.com/in/lukasz-gawrys" rel="noopener noreferrer" target="_blank">
                             <i className="fab fa-linkedin-in"></i></a>
                         <a href="https://github.com/LucaGavri" rel="noopener noreferrer" target="_blank">

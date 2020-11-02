@@ -6,17 +6,31 @@ class Portfolio extends Component {
     render() {
         return (
             <div className="portfolio">
-                <h3><span>por</span>tfolio</h3>
+                <h3><span>port</span>folio</h3>
                 <div className="portfolioMain">
                     <div className="portfolioDetailing">
                         <div className="portfolioDetailingImg">
                         </div>
                         <div className="portfolioDetailingClicker">
                             <div className="portfolioDetailingClickerBtns">
-                                <a href="https://lucagavri.github.io/WytworniaBlasku_Project/" className="detailingDemo" rel="noopener noreferrer" target="_blank">
+                                <a href="http://www.wytworniablasku.pl/" className="detailingDemo" rel="noopener noreferrer" target="_blank">
                                     <i className="fas fa-play"></i>
                                 </a>
                                 <a href="https://github.com/LucaGavri/WytworniaBlasku_Project" className="detailingGitHub" rel="noopener noreferrer" target="_blank">
+                                    <i className="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="portfolioFakestagram">
+                        <div className="portfolioFakestagramImg">
+                        </div>
+                        <div className="portfolioFakestagramClicker">
+                            <div className="portfolioFakestagramClickerBtns">
+                                <a href="https://fakestagramreactapp.web.app/" className="fakestagramDemo" rel="noopener noreferrer" target="_blank">
+                                    <i className="fas fa-play"></i>
+                                </a>
+                                <a href="https://github.com/LucaGavri/Fakestagram_ReactApp" className="fakestagramGitHub" rel="noopener noreferrer" target="_blank">
                                     <i className="fab fa-github"></i>
                                 </a>
                             </div>
